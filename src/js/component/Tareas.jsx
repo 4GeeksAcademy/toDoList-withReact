@@ -183,7 +183,7 @@ useEffect(() => {
                                 {todo.label}
 
                                 <button className="x" onClick={() => deleteList(todo.id)}>x</button>
-                                <button onClick={() => putList(index, todo)}>Edit</button>
+                                {/* <button onClick={() => putList(index, todo)}>Edit</button> */}
                             </li>
                         )
                     })
